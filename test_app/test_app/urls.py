@@ -11,7 +11,7 @@ urlpatterns = [
     ),
     # Documentation URL
     url(
-        r'^docs/',
+        r'^',
         include_docs_urls(
             title='REST APIs Documentation',
             permission_classes=(permissions.AllowAny,),
