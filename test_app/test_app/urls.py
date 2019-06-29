@@ -13,7 +13,7 @@ urlpatterns = [
     url(
         r'^docs/',
         include_docs_urls(
-            title='Ayu REST APIs Documentation',
+            title='REST APIs Documentation',
             permission_classes=(permissions.AllowAny,),
         )
     ),
